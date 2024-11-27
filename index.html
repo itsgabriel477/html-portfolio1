@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">        
+    <title>My Resume</title>
+    <style>
+        body {
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Stack elements vertically */
+        }
+        .summary-container {
+            display: flex; /* Align summary and image side by side */
+            align-items: center; /* Center align items vertically */
+        }
+        .summary {
+            flex: 1; /* Allow summary to take remaining space */
+        }
+        #date {
+            float: right; /* Align to the right */
+            margin-left: 10px; /* Add some space between the text and date */
+        }
+        .work-experience-item {
+            overflow: hidden; /* Clear floats */
+        }
+        .profile-image {
+            border-radius: 60%; /* Make the image circular */
+            width: 200px; /* Set a fixed width */
+            height: 200px; /* Set a fixed height */
+            object-fit: cover; /* Ensure the image covers the area without distortion */
+            margin-left: 20px; /* Add some space between the image and the text */
+        }
+    </style>
+    <header>
+        <h1><u>My Resume</u></h1>
+    </header>
+</head>
+<body>
+    <div class="summary-container">
+        <div class="summary">
+            <h2>Summary</h2>
+            <div>
+                I am a web developer with a rock-solid basis in computer engineering, and my field of expertise is in the creation of responsive, user-friendly websites. Utilizing the techniques of HTML, CSS, JavaScript, and problem-solving, I introduce dynamic projects that are first of all easy to work with and then fast and modern in appearance.  
+                A long time in the engineering sector has prompted me to see a different side of web development as I plan out quite a number of tasks based on systems thinking. I am excited to explore and work on creative ideas, technologies, and websites as well as to develop them with clean design and optimized functionality, which consequently leads to an impact.
+            </div>
+        </div>
+        <img src="COVER (3).jpg" class="profile-image"/>
+    </div>
+    <div class="Education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <ul>
+                    <li>Bachelor of Science in Computer Engineering</li>
+                    <li>Rivers State University — Port Harcourt, Nigeria</li>
+                    <li>Expected Graduation: December 2030</li>
+                </ul>
+            </li>
+            <li>
+                WAEC Certificate
+            </li>
+        </ul>
+    </div>
+    <div class="Work Experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li class="work-experience-item">UI/UX and Web designer <div id="date">Oct 5th, 2024</div>
+                <ul>
+                    <li>Designed and developed responsive, user-centered websites and interfaces for diverse clients, ensuring seamless functionality across devices.</li>
+                    <li>Conducted user research and usability testing to enhance user experiences and improve customer satisfaction.</li>
+                    <li>Collaborated with developers and stakeholders to translate ideas into functional designs, focusing on accessibility and aesthetic appeal.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li class="work-experience-item">Graphic Designer <div id="date">Aug 12th, 2023</div>
+                <ul>
+                    <li>Designed visually engaging graphics, logos, and layouts to enhance website aesthetics and branding for clients.</li>
+                    <li>Integrated custom graphic elements into web designs, ensuring seamless alignment with the overall user experience.</li>
+                    <li>Utilized tools like Adobe Photoshop, Illustrator, and CorelDraw to create design assets tailored to web projects.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="Skills">
+        <h2>Skills</h2>
+        <p>UI/UX Design, Graphics design, Problem-Solving Skills, Critical thinking and more</p>
+    </div>
+    <div class="Hobbies">
+        <a href="Hobbies.html">My Hobbies</a>
+    </div>
+    <div class="Contact me">
+        <a href="contact.html">Contact</a>
+    </div>
+    <footer>
+        <p>Gabriel©gabicodes2024</p>
+    </footer>
+    
+</body>
+</html>
